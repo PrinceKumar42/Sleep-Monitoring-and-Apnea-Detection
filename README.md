@@ -1,5 +1,3 @@
-# Sleep-Monitoring-and-Apnea-Detection
-This project identifies sleep patterns from physiological signals such as ECG or respiration data and detects sleep apnea events. It segments and classifies the signals from normal and apnea episodes through signal processing and machine learning techniques, which can be very helpful in early diagnosis and in managing sleep health.
 
 <h3 align="center">Sleep-Monitoring-and-Apnea-Detection</h3>
 
@@ -17,3 +15,58 @@ To detect sleep apnea events automatically
 To classify sleep data into Normal and Apnea categories
 
 To support early diagnosis using data-driven methods
+
+# 🛠️ Technologies Used
+
+Python
+
+NumPy & Pandas – Data handling
+
+Matplotlib – Data visualization
+
+Scikit-learn – Machine learning models
+
+Google Colab / Jupyter Notebook
+
+# 📊 Dataset
+
+The dataset contains ECG recordings collected during sleep.
+
+Signals are segmented and labeled as:
+
+0 → Normal
+
+1 → Apnea
+
+# ⚙️ Methodology
+
+1. Load and preprocess ECG data
+
+2. Perform signal visualization and analysis
+
+3. Extract meaningful features
+
+4. Train machine learning models
+
+5. Evaluate performance using accuracy and classification metrics
+
+# 📈 Results
+
+Successfully visualized ECG signals
+
+Detected apnea patterns from sleep data
+
+Achieved effective classification between normal and apnea events
+
+# 🚀 How to Run
+
+Clone the repository
+
+Open Sleep_Apnea_Detection_Colab.ipynb
+
+Run all cells sequentially in Google Colab or Jupyter Notebook
+
+
+# 📌 Conclusion
+
+This project demonstrates how machine learning and signal processing can be used in healthcare to detect sleep apnea efficiently. It can be extended further with deep learning models and real-time monitoring systems.
